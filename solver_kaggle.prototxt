@@ -1,0 +1,13 @@
+net: "/home/tracking/work/src/hyperface/kaggle/kaggle.prototxt"
+base_lr: 0.01
+lr_policy: "step"
+iter_size: 1
+gamma: 0.1
+stepsize: 1000
+display: 1
+max_iter: 5000
+momentum: 0.9
+weight_decay: 0.0005
+snapshot: 100
+snapshot_prefix: "models/hyperface/snapshot/kaggle"
+solver_mode: GPU
